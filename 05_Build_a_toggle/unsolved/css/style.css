@@ -1,0 +1,39 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Open Sans", helvetica, sans-serif;
+}
+#dropDown {
+  display: none;
+}
+#toggle {
+  background-color: #FF6767;
+  padding: 15px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+ul {
+  margin:0;
+  padding: 0;
+  list-style-type:none;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
+
+}
+li {
+  margin:0;
+  padding: 15px;
+  border: 1px solid #FF6767;
+     border-width: thick;
+}
+li:hover{
+  text-decoration: underline;
+  text-decoration-color: #FF6767;
+  text-decoration-style: wavy;
+}
+img {
+  width: 18px;
+}
